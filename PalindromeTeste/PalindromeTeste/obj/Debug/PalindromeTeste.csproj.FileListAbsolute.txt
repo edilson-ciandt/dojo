@@ -1,0 +1,7 @@
+D:\treinamento\dojo\PalindromeTeste\PalindromeTeste\bin\Debug\PalindromeTeste.dll
+D:\treinamento\dojo\PalindromeTeste\PalindromeTeste\bin\Debug\PalindromeTeste.pdb
+D:\treinamento\dojo\PalindromeTeste\PalindromeTeste\obj\Debug\PalindromeTeste.csprojResolveAssemblyReference.cache
+D:\treinamento\dojo\PalindromeTeste\PalindromeTeste\obj\Debug\PalindromeTeste.dll
+D:\treinamento\dojo\PalindromeTeste\PalindromeTeste\obj\Debug\PalindromeTeste.pdb
+D:\treinamento\dojo\PalindromeTeste\PalindromeTeste\bin\Debug\PacoteNegocio.dll
+D:\treinamento\dojo\PalindromeTeste\PalindromeTeste\bin\Debug\PacoteNegocio.pdb

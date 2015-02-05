@@ -1,0 +1,5 @@
+D:\treinamento\dojo\Hello2\Calculadora\bin\Debug\Calculadora.dll
+D:\treinamento\dojo\Hello2\Calculadora\bin\Debug\Calculadora.pdb
+D:\treinamento\dojo\Hello2\Calculadora\obj\Debug\Calculadora.csprojResolveAssemblyReference.cache
+D:\treinamento\dojo\Hello2\Calculadora\obj\Debug\Calculadora.dll
+D:\treinamento\dojo\Hello2\Calculadora\obj\Debug\Calculadora.pdb

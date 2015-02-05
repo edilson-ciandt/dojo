@@ -1,0 +1,4 @@
+D:\treinamento\dojo\Hello2\Calculadora\bin\Release\Calculadora.dll
+D:\treinamento\dojo\Hello2\Calculadora\bin\Release\Calculadora.pdb
+D:\treinamento\dojo\Hello2\Calculadora\obj\Release\Calculadora.dll
+D:\treinamento\dojo\Hello2\Calculadora\obj\Release\Calculadora.pdb

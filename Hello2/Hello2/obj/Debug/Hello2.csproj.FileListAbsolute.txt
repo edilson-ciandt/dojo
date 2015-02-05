@@ -1,0 +1,8 @@
+D:\treinamento\dojo\Hello2\Hello2\bin\Debug\Hello2.exe.config
+D:\treinamento\dojo\Hello2\Hello2\bin\Debug\Hello2.exe
+D:\treinamento\dojo\Hello2\Hello2\bin\Debug\Hello2.pdb
+D:\treinamento\dojo\Hello2\Hello2\bin\Debug\Calculadora.dll
+D:\treinamento\dojo\Hello2\Hello2\bin\Debug\Calculadora.pdb
+D:\treinamento\dojo\Hello2\Hello2\obj\Debug\Hello2.csprojResolveAssemblyReference.cache
+D:\treinamento\dojo\Hello2\Hello2\obj\Debug\Hello2.exe
+D:\treinamento\dojo\Hello2\Hello2\obj\Debug\Hello2.pdb

@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalindromeTeste", "PalindromeTeste\PalindromeTeste.csproj", "{2A53ABC4-F5DA-4C77-963E-3DB70DC87A24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PacoteNegocio", "PacoteNegocio\PacoteNegocio.csproj", "{52A4D269-852D-4BD1-992A-091A74E9653F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A53ABC4-F5DA-4C77-963E-3DB70DC87A24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A53ABC4-F5DA-4C77-963E-3DB70DC87A24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A53ABC4-F5DA-4C77-963E-3DB70DC87A24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A53ABC4-F5DA-4C77-963E-3DB70DC87A24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52A4D269-852D-4BD1-992A-091A74E9653F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52A4D269-852D-4BD1-992A-091A74E9653F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52A4D269-852D-4BD1-992A-091A74E9653F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52A4D269-852D-4BD1-992A-091A74E9653F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

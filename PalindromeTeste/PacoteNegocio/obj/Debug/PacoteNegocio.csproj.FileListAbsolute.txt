@@ -1,0 +1,5 @@
+D:\treinamento\dojo\PalindromeTeste\PacoteNegocio\bin\Debug\PacoteNegocio.dll
+D:\treinamento\dojo\PalindromeTeste\PacoteNegocio\bin\Debug\PacoteNegocio.pdb
+D:\treinamento\dojo\PalindromeTeste\PacoteNegocio\obj\Debug\PacoteNegocio.csprojResolveAssemblyReference.cache
+D:\treinamento\dojo\PalindromeTeste\PacoteNegocio\obj\Debug\PacoteNegocio.dll
+D:\treinamento\dojo\PalindromeTeste\PacoteNegocio\obj\Debug\PacoteNegocio.pdb
