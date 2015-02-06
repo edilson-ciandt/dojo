@@ -1,0 +1,7 @@
+D:\treinamento\dojo\Banco\Banco.Business\bin\Debug\Banco.Business.dll
+D:\treinamento\dojo\Banco\Banco.Business\bin\Debug\Banco.Business.pdb
+D:\treinamento\dojo\Banco\Banco.Business\bin\Debug\Banco.Model.dll
+D:\treinamento\dojo\Banco\Banco.Business\bin\Debug\Banco.Model.pdb
+D:\treinamento\dojo\Banco\Banco.Business\obj\Debug\Banco.Business.csprojResolveAssemblyReference.cache
+D:\treinamento\dojo\Banco\Banco.Business\obj\Debug\Banco.Business.dll
+D:\treinamento\dojo\Banco\Banco.Business\obj\Debug\Banco.Business.pdb

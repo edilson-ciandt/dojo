@@ -1,0 +1,5 @@
+D:\treinamento\dojo\ClassLibrary1\ClasseA\bin\Debug\ClasseA.exe.config
+D:\treinamento\dojo\ClassLibrary1\ClasseA\bin\Debug\ClasseA.exe
+D:\treinamento\dojo\ClassLibrary1\ClasseA\bin\Debug\ClasseA.pdb
+D:\treinamento\dojo\ClassLibrary1\ClasseA\obj\Debug\ClasseA.exe
+D:\treinamento\dojo\ClassLibrary1\ClasseA\obj\Debug\ClasseA.pdb

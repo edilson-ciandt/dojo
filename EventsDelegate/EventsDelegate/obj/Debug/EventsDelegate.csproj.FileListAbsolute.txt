@@ -1,0 +1,6 @@
+D:\treinamento\dojo\EventsDelegate\EventsDelegate\bin\Debug\EventsDelegate.exe.config
+D:\treinamento\dojo\EventsDelegate\EventsDelegate\bin\Debug\EventsDelegate.exe
+D:\treinamento\dojo\EventsDelegate\EventsDelegate\bin\Debug\EventsDelegate.pdb
+D:\treinamento\dojo\EventsDelegate\EventsDelegate\obj\Debug\EventsDelegate.csprojResolveAssemblyReference.cache
+D:\treinamento\dojo\EventsDelegate\EventsDelegate\obj\Debug\EventsDelegate.exe
+D:\treinamento\dojo\EventsDelegate\EventsDelegate\obj\Debug\EventsDelegate.pdb
