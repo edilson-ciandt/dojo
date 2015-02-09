@@ -40,11 +40,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CaixaBusiness.cs" />
+    <Compile Include="CartaoBusiness.cs" />
     <Compile Include="ContaBusiness.cs" />
     <Compile Include="ClienteBusiness.cs" />
+    <Compile Include="IBusiness.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Banco.Data\Banco.Data.csproj">
+      <Project>{8527cfb1-d4d7-48e3-8e0e-37d02024f0e6}</Project>
+      <Name>Banco.Data</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Banco\Banco.Model.csproj">
       <Project>{9b51837a-a9e8-4da4-9c7f-d91f2ea8ca59}</Project>
       <Name>Banco.Model</Name>

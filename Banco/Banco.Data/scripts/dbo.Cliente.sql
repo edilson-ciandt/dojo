@@ -1,0 +1,8 @@
+﻿CREATE TABLE [dbo].[Table]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY, 
+    [Cpf] NVARCHAR(50) NOT NULL, 
+    [Nome] NVARCHAR(150) NOT NULL, 
+    [Endereco] NVARCHAR(150) NOT NULL, 
+    [DataDeNascimento] DATETIME NOT NULL
+)

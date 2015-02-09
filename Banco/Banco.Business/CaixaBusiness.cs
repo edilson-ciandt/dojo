@@ -11,7 +11,7 @@ namespace Banco.Business
     public class CaixaBusiness
     {
 
-        public bool Sacar(Conta conta, double valor)
+        public bool Sacar(Conta conta, decimal valor)
         {
             if ((conta.Saldo >= valor)&&(valor>=50)) {
                

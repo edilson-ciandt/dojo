@@ -14,7 +14,7 @@ namespace UnitTestBanco
         {
             Cliente cliente = new Cliente();
 
-            Assert.IsFalse(ClienteBusiness.VerifyUser(cliente));
+            Assert.IsFalse(new ClienteBusiness().Verificar(cliente));
    
         }
 
@@ -28,7 +28,7 @@ namespace UnitTestBanco
             cliente.DataDeNascimento = DateTime.Now;
             cliente.Endereco = "lugar";
 
-            Assert.IsTrue(ClienteBusiness.VerifyUser(cliente));
+            Assert.IsTrue(new ClienteBusiness().Verificar(cliente));
         }
 
         [TestMethod]
@@ -40,7 +40,49 @@ namespace UnitTestBanco
             cliente.DataDeNascimento = DateTime.Now;
             cliente.Endereco = "lugar";
 
-            Assert.IsFalse(ClienteBusiness.VerifyUser(cliente));
+            Assert.IsFalse(new ClienteBusiness().Verificar(cliente));
         }
+
+        [TestMethod]
+        public void TesteVerificaInsercaoBuscaeRemocao()
+        {
+            Cliente cliente = new Cliente();
+            IBusiness<Cliente> clienteBusiness = new ClienteBusiness();
+
+            cliente.Cpf = "234234234";
+            cliente.DataDeNascimento = DateTime.Now;
+            cliente.Endereco = "sdfasdf";
+            cliente.Nome = "Edilson";
+
+            clienteBusiness.Inserir(cliente);
+            Assert.IsNotNull(cliente.Id);
+
+            Cliente cliRetorno = clienteBusiness.BuscarPorId(cliente.Id);
+            Assert.IsNotNull(cliRetorno);
+
+            clienteBusiness.Excluir(cliente.Id);
+            Assert.IsNull(clienteBusiness.BuscarPorId(cliente.Id));
+        }
+
+        [TestMethod]
+        public void TesteVerificaUpdate()
+        {
+            Cliente cliente = new Cliente { Id = 1 };
+            IBusiness<Cliente> clienteBusiness = new ClienteBusiness();
+
+            cliente.Cpf = "0000";
+            cliente.DataDeNascimento = DateTime.Now;
+            cliente.Endereco = "algo";
+            cliente.Nome = "Alguem";
+
+            clienteBusiness.Atualizar(cliente);
+            Assert.AreEqual("0000",clienteBusiness.BuscarPorId(cliente.Id).Cpf);
+
+
+
+        }
+        
+
+
     }
 }

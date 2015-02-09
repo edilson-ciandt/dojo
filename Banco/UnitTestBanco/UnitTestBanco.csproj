@@ -54,6 +54,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TestesConta.cs" />
     <Compile Include="TestesCaixa.cs" />
+    <Compile Include="TestesCartao.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Banco.Business\Banco.Business.csproj">
@@ -64,6 +65,9 @@
       <Project>{9b51837a-a9e8-4da4-9c7f-d91f2ea8ca59}</Project>
       <Name>Banco.Model</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

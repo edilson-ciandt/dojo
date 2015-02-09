@@ -15,7 +15,7 @@ namespace UnitTestBanco
             Conta conta = new Conta();
 
             conta.Saldo = 1000;
-            conta.IdCliente = "123";
+            conta.IdCliente = 123;
 
             Assert.IsFalse(caixa.Sacar(conta, 2000));
         }
@@ -27,7 +27,7 @@ namespace UnitTestBanco
             Conta conta = new Conta();
 
             conta.Saldo = 1000;
-            conta.IdCliente = "123";
+            conta.IdCliente = 123;
 
             Assert.IsTrue(caixa.Sacar(conta, 500));
         }
@@ -40,7 +40,7 @@ namespace UnitTestBanco
             Conta conta = new Conta();
 
             conta.Saldo = 1000;
-            conta.IdCliente = "123";
+            conta.IdCliente = 1;
             Assert.IsFalse(caixa.Sacar(conta, 0));
         }
     }

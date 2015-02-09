@@ -1,0 +1,11 @@
+D:\treinamento\dojo\Banco\Banco.Data\bin\Debug\Banco.Data.dll
+D:\treinamento\dojo\Banco\Banco.Data\bin\Debug\Banco.Data.pdb
+D:\treinamento\dojo\Banco\Banco.Data\bin\Debug\Banco.Model.dll
+D:\treinamento\dojo\Banco\Banco.Data\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\treinamento\dojo\Banco\Banco.Data\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\treinamento\dojo\Banco\Banco.Data\bin\Debug\Banco.Model.pdb
+D:\treinamento\dojo\Banco\Banco.Data\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\treinamento\dojo\Banco\Banco.Data\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+D:\treinamento\dojo\Banco\Banco.Data\obj\Debug\Banco.Data.csprojResolveAssemblyReference.cache
+D:\treinamento\dojo\Banco\Banco.Data\obj\Debug\Banco.Data.dll
+D:\treinamento\dojo\Banco\Banco.Data\obj\Debug\Banco.Data.pdb

@@ -7,3 +7,10 @@ D:\treinamento\dojo\Banco\UnitTestBanco\bin\Debug\Banco.Business.pdb
 D:\treinamento\dojo\Banco\UnitTestBanco\bin\Debug\Banco.Model.pdb
 D:\treinamento\dojo\Banco\UnitTestBanco\obj\Debug\UnitTestBanco.dll
 D:\treinamento\dojo\Banco\UnitTestBanco\obj\Debug\UnitTestBanco.pdb
+D:\treinamento\dojo\Banco\UnitTestBanco\bin\Debug\UnitTestBanco.dll.config
+D:\treinamento\dojo\Banco\UnitTestBanco\bin\Debug\Banco.Data.dll
+D:\treinamento\dojo\Banco\UnitTestBanco\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\treinamento\dojo\Banco\UnitTestBanco\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\treinamento\dojo\Banco\UnitTestBanco\bin\Debug\Banco.Data.pdb
+D:\treinamento\dojo\Banco\UnitTestBanco\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+D:\treinamento\dojo\Banco\UnitTestBanco\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
