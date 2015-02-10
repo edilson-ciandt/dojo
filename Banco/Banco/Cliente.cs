@@ -13,6 +13,7 @@ namespace Banco.Model
         public string Nome { get; set; }
         public string Endereco { get; set; }
         public DateTime DataDeNascimento { get; set; }
+        public Conta Conta { get; set; }
 
 
     }

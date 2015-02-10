@@ -45,7 +45,8 @@ namespace Banco.Business
 
         public void Atualizar(Conta conta)
         {
-            throw new NotImplementedException();
+            IData<Conta> contaData = new ContaData();
+            contaData.Atualizar(conta);
         }
     }
 }

@@ -13,9 +13,12 @@ namespace Banco.Business
 
         public bool Sacar(Conta conta, decimal valor)
         {
+            ContaBusiness contaBusiness = new ContaBusiness();
             if ((conta.Saldo >= valor)&&(valor>=50)) {
                
                 conta.Saldo = conta.Saldo - valor;
+
+                contaBusiness.Atualizar(conta);
                 return true;
             }
 

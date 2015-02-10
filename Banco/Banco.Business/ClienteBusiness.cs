@@ -36,7 +36,9 @@ namespace Banco.Business
 
         public IEnumerable<Cliente> BuscarTodos()
         {
-            throw new NotImplementedException();
+            IData<Cliente> clienteData = new ClienteData();
+
+            return clienteData.BuscarTodos();
         }
 
         public Cliente BuscarPorId(int clienteId)

@@ -35,7 +35,32 @@ namespace Banco.Data
 
         public IEnumerable<Cliente> BuscarTodos()
         {
-            throw new NotImplementedException();
+            List<Cliente> clientes = new List<Cliente>();
+
+            String sql = "SELECT c.Id, c.Nome, c.Cpf, co.Saldo FROM CLIENTE c INNER JOIN CONTA co ON c.Id = co.IdCliente";
+            using (DbCommand cmd = db.GetSqlStringCommand(sql))
+            {
+                DataSet resultados = db.ExecuteDataSet(cmd);
+
+                if (resultados.Tables[0].Rows.Count != 0)
+                {
+                    foreach (DataRow resultado in resultados.Tables[0].Rows)
+                    {
+                        Cliente cliente = new Cliente();
+                        Conta conta = new Conta();
+                        cliente.Id = (int)resultado["Id"];
+                        cliente.Nome = resultado["Nome"].ToString();
+                        cliente.Cpf = resultado["Cpf"].ToString();
+                        conta.Saldo = Convert.ToDecimal(resultado["Saldo"]);
+                        cliente.Conta = conta;
+                        
+
+                        clientes.Add(cliente);
+                    }
+                }
+            }
+                    
+            return clientes;
         }
 
         public Cliente BuscarPorId(int clienteId)

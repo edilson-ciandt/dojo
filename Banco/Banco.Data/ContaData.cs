@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace Banco.Data
 {
-    public class ContaData:BaseData, IData<Conta>
+    public class ContaData : BaseData, IData<Conta>
     {
         public void Inserir(Conta conta)
         {
@@ -25,7 +25,7 @@ namespace Banco.Data
 
                 db.ExecuteNonQuery(cmd);
 
-                conta.Id =(int)db.GetParameterValue(cmd, "@ID");
+                conta.Id = (int)db.GetParameterValue(cmd, "@ID");
             }
 
 
@@ -53,7 +53,7 @@ namespace Banco.Data
                 conta.IdCliente = (int)resultado.Tables[0].Rows[0]["IdCliente"];
                 conta.Saldo = (decimal)resultado.Tables[0].Rows[0]["Saldo"];
                 conta.Id = (int)resultado.Tables[0].Rows[0]["Id"];
-  
+
             }
 
             return conta;
@@ -73,9 +73,19 @@ namespace Banco.Data
             }
         }
 
-        public void Atualizar(Conta objeto)
+        public void Atualizar(Conta conta)
         {
-            throw new NotImplementedException();
+            Database db = GetDataBaseConnection();
+            string sql = "UPDATE CONTA SET Saldo = @saldo WHERE Id = @id";
+
+            using (DbCommand cmd = db.GetSqlStringCommand(sql))
+            {
+
+                db.AddInParameter(cmd, "@saldo", System.Data.DbType.Decimal, conta.Saldo);
+                db.AddInParameter(cmd, "@id", System.Data.DbType.Int32, conta.Id);
+
+                db.ExecuteNonQuery(cmd);
+            }
         }
     }
 }
